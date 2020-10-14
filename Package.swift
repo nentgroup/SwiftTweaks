@@ -23,12 +23,12 @@ let package = Package(
     .target(
         name: "SwiftTweaks",
         dependencies: [],
-        path: "./SwiftTweaks/**"
+        path: "./SwiftTweaks"
     ),
     .testTarget(
         name: "SwiftTweaksTests",
         dependencies: [],
-        path: "./SwiftTweaks/**"
+        path: "./SwiftTweaksTests"
     ),
   ]
 )
