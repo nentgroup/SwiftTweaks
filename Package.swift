@@ -27,7 +27,7 @@ let package = Package(
     ),
     .testTarget(
         name: "SwiftTweaksTests",
-        dependencies: []
+        dependencies: [],
         path: "./SwiftTweaks/**"
     ),
   ]
