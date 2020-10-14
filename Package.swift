@@ -25,7 +25,7 @@ let package = Package(
         dependencies: [],
         path: "./SwiftTweaks",
         resources: [
-          .process("./SwiftTweaks"),
+          .process("./SwiftTweaks/Media.xcassets"),
         ]
     ),
     .testTarget(
