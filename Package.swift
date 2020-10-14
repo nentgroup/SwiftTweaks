@@ -23,7 +23,8 @@ let package = Package(
     .target(
         name: "SwiftTweaks",
         dependencies: [],
-        path: "./SwiftTweaks"
+        path: "./SwiftTweaks",
+        resources: "SwiftTweaks/*.xcassets"
     ),
     .testTarget(
         name: "SwiftTweaksTests",
