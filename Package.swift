@@ -24,7 +24,9 @@ let package = Package(
         name: "SwiftTweaks",
         dependencies: [],
         path: "./SwiftTweaks",
-        resources: "SwiftTweaks/*.xcassets"
+        resources: [
+          .process("./SwiftTweaks"),
+        ]
     ),
     .testTarget(
         name: "SwiftTweaksTests",
